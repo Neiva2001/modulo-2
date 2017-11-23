@@ -1,0 +1,34 @@
+
+package javaapplication1;
+import java.util.Scanner;
+public class JavaApplication1 {
+
+
+    public static void main(String[] args) {
+      Scanner Ler = new Scanner (System.in);
+      double n1; 
+      double n2;
+      double total;
+      String nome;
+      System.out.print("qual o nome do aluno");
+      nome = Ler.next();
+      System.out.print("Digite a primeira nota");
+      n1 = Ler.nextDouble();
+      System.out.print("Digite a segunda nota");
+      n2 = Ler.nextDouble();
+      total= n1*0.6+n2*0.4;
+      System.out.print("o resultado é");
+      if(total>=10)
+      System.out.print("o alino (a) está aprovado");
+      if (total<10)
+      System.out.print("o aluno (a) está reprovado");
+      System.out.print("o aluno"+ nome +"obteve a nota: " +total);
+      
+      
+      
+      
+      
+    }
+    
+}
+ 
